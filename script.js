@@ -1,5 +1,5 @@
 // Switch to the Codetribe database (creates it if it doesn't exist)
-//use Codetribe;
+use ('Codetribe');
 
 // Create and populate the Facilitators collection
 db.Facilitators.insertOne({

@@ -1,9 +1,15 @@
 # Task 18 - MongoDB Mongosh App
 
 ## Objective
-This project demonstrates the basics of MongoDB by creating a database, collections, and inserting documents.
+The purpose of this project is to understand the basics of MongoDB and learn how to interact with it using the MongoDB shell (Mongosh). This includes creating a database, adding collections, inserting documents, and verifying the results.
 
-## Steps to Run the Project
-1. Ensure MongoDB is installed and the server is running.
-   ```bash
-   mongod
+---
+
+## MongoDB Shell Commands Used
+
+### Step 1: Start the MongoDB Shell
+To begin, start the MongoDB server (`mongod`) in one terminal and the MongoDB shell (`mongosh`) in another.
+
+#### Start MongoDB Server:
+```bash
+mongod
